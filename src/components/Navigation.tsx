@@ -12,7 +12,7 @@ export function Navigation() {
   ];
 
   return (
-    <nav className="border-b bg-white sticky top-0 z-[1001]">
+    <nav className="border-b bg-white sticky top-0 z-[10001]" style={{ pointerEvents: 'auto' }}>
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2">

@@ -228,8 +228,13 @@ html {
   z-index: 1 !important;
 }
 
-/* Force our custom legend to stay on top */
+/* Force our custom legend to stay on top but below navigation */
 .price-range-legend {
-  z-index: 10000 !important;
+  z-index: 1000 !important;
   position: relative !important;
+}
+
+/* Ensure navigation stays above everything */
+nav {
+  z-index: 10001 !important;
 }
